@@ -16,4 +16,9 @@ app.get('/api/toc', (req, res) => {
   ]);
 });
 
+app.get('/api/ep-info', (req, res) => {
+  console.log('Peti endpoint');
+  res.send('mentor');
+});
+
 app.listen(8888, () => console.log('Server is running on port 8888'));
