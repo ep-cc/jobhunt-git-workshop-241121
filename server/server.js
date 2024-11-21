@@ -17,6 +17,7 @@ app.get('/api/toc', (req, res) => {
 });
 
 app.get('/api/ep-info', (req, res) => {
+  console.log('Peti endpoint');
   res.send('mentor');
 });
 
