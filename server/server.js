@@ -21,4 +21,9 @@ app.get('/api/ep-info', (req, res) => {
   res.send('mentor');
 });
 
+app.get('/api/priusz-info', (req, res) => {
+  console.log('Timi endpoint');
+  res.send('student');
+});
+
 app.listen(8888, () => console.log('Server is running on port 8888'));
